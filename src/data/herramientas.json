@@ -1,0 +1,20 @@
+[
+    {
+        "id":"1",
+        "name":"React Native",
+        "description":" Framework basado en React. Es usado para el desarrollo mobil multiplataforma",
+        "link":"https://reactnative.dev/"
+    },
+    {
+        "id":"2",
+        "name":"React",
+        "description":" Framework de desarrollo web , que trabaja con javascript",
+        "link":"https://es.reactjs.org/"
+    },
+    {
+        "id":"3",
+        "name":"CodeIgniter",
+        "description":" Framework de desarrollo web , que trabaja con lenguaje php y javascript",
+        "link":"https://codeigniter.com/"
+    }
+]
