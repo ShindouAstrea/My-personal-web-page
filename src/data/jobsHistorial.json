@@ -1,0 +1,18 @@
+[
+    {
+        "id":"1",
+        "name":"Ayudante de Ti",
+        "place":"Laboratorio de Informatica , Pontificia Universidad Catolica de Valparaiso",
+        "description":" Mi principal labor era sistir al profesorado y alumnado en el uso de los equipamientos tecnologicos dispuestos en la escuela , los cuales eran: proyectores, equipos de audio y computadores. Tambien , mi labor era revisar la seguridad de puertas y ventanas entre cada clase en que se ocupaban , asi como tambien a la entrega de llaves de acceso a dichas salas.",
+        "startDate":"Marzo 2022",
+        "finishDate":"Julio 2022"
+    },
+    {
+        "id":"2",
+        "name":"Practicante de desarrollador de Software ",
+        "place":"Unidad de Asistencia Tecnica, Pontificia Universidad Catolica de Valparaiso",
+        "description":"Mi labor fue trabajar con el cargo de Practicante, en proyectores que me entregaban. Mis labores abarcaron las areas de documentacion, desarrollador web  y tester.",
+        "startDate":" Diciembre 2021",
+        "finishDate":" Febrero 2022"
+    }
+]
