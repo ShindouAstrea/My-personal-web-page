@@ -1,0 +1,17 @@
+[
+    {
+        "name":"AnimeNotes",
+        "description":"Aplicacion movil que permite crear notas , agregando gifs e imagenes de anime",
+        "link":""
+    },
+    {
+        "name":"AnimeGIfs",
+        "description":"Aplicacion movil que recopila y entrega gifs en base a una busqueda",
+        "link":""
+    },
+    {
+        "name":"ItsukiEngine",
+        "description":"Aplicacion que busca de manera inversa ,fuente de donde proviene un gif o imagen",
+        "link":""
+    }
+]
