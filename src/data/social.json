@@ -1,0 +1,23 @@
+[
+    {
+        "id":"1",
+        "name":"Linkdln",
+        "url":"https://www.linkedin.com/in/josesilvaaraneda/"
+    },
+    {
+        "id":"2",
+        "name":"GitHub",
+        "url":"https://github.com/ShindouAstrea"
+    },
+    {
+        "id":"3",
+        "name":"Twitter",
+        "url":"https://twitter.com/josebastian_"
+    },
+    {
+        "id":"4",
+        "name":"Gmail",
+        "url":"jose.silva.a@mail.pucv.cl"
+    }
+
+]
