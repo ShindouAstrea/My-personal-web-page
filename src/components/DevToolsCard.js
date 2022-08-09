@@ -13,7 +13,7 @@ export default function DevToolsCard(){
                         <Card.Body>
                             <Card.Title>{item.name}</Card.Title>
                             <Card.Text>{item.description}</Card.Text>
-                            <Button variant="outline-success" href={item.link}>Ir a  Google play</Button>
+                            <Button variant="outline-success" href={item.link}>Revisar Documentacion</Button>
                         </Card.Body>
                 </Card>
               </Col>

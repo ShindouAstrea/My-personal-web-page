@@ -4,10 +4,11 @@ import DevAppsCard from '../DevAppsCard' ;
 function DevApps(){
     return(
         <Container className='contenedor'>
-            <Row style={{marginRight:"100",backgrounColor:"blue"}}>
+            <Row>
                 <Col>
                     <DevAppsCard/>
                 </Col>
+
             </Row>
 
         </Container>
