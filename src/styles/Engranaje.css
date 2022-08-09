@@ -1,0 +1,19 @@
+.engranaje {
+    height: 30vmin;
+    pointer-events: none;
+  }
+   
+  @media (prefers-reduced-motion: no-preference) {
+    .engranaje {
+      animation:engranaje-move infinite 4s linear;
+    }
+  }
+  @keyframes engranaje-move{
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg); 
+    }
+  }
+  
