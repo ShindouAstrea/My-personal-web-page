@@ -12,18 +12,31 @@ function NavBarComponent(){
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
           <Nav.Item >
-                <Link to ="/Jobs"> Mis Trabajos
+                <Link to ="/Jobs">
+                Mis trabajos
                 </Link>
+                
             </Nav.Item>
           </Nav>
           <Nav>
-          <Nav.Link href="/Jobs">Trabajos</Nav.Link>
-            
-            <Nav.Link href="/Apps">Apps Desarrolladas</Nav.Link>
-            <Nav.Link href="/DevTools">Herramientas</Nav.Link>
-            <Nav.Link eventKey={2} href="/SocialNetworks">
-              RR.SS
-            </Nav.Link>
+          <Nav.Item >
+                <Link to ="/Apps">
+                Apps
+                </Link>
+                
+            </Nav.Item>
+            <Nav.Item >
+                <Link to ="/DevTools">
+                Tools
+                </Link>
+                
+            </Nav.Item>
+            <Nav.Item >
+                <Link to ="/SocialNetworks">
+                Redes
+                </Link>
+                
+            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>
