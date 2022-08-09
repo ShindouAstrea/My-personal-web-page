@@ -1,5 +1,5 @@
 import React from 'react';
-import {Outlet} from 'react-router-dom';
+import {Outlet,Link} from 'react-router-dom';
 import {Nav,Navbar,Container} from 'react-bootstrap';
 import '../styles/NavBar.css' ;
 function NavBarComponent(){
@@ -11,10 +11,14 @@ function NavBarComponent(){
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            
+          <Nav.Item >
+                <Link to ="/Jobs"> Mis Trabajos
+                </Link>
+            </Nav.Item>
           </Nav>
           <Nav>
           <Nav.Link href="/Jobs">Trabajos</Nav.Link>
+            
             <Nav.Link href="/Apps">Apps Desarrolladas</Nav.Link>
             <Nav.Link href="/DevTools">Herramientas</Nav.Link>
             <Nav.Link eventKey={2} href="/SocialNetworks">
