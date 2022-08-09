@@ -11,27 +11,28 @@ function NavBarComponent(){
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-          <Nav.Item >
+          
+          </Nav>
+          <Nav>
+            <Nav.Item className='mr-5'>
                 <Link to ="/Jobs">
                 Mis trabajos
                 </Link>
                 
             </Nav.Item>
-          </Nav>
-          <Nav>
-          <Nav.Item >
+          <Nav.Item className='mr-5'>
                 <Link to ="/Apps">
                 Apps
                 </Link>
                 
             </Nav.Item>
-            <Nav.Item >
+            <Nav.Item className='mr-5'>
                 <Link to ="/DevTools">
                 Tools
                 </Link>
                 
             </Nav.Item>
-            <Nav.Item >
+            <Nav.Item className='mr-5'>
                 <Link to ="/SocialNetworks">
                 Redes
                 </Link>

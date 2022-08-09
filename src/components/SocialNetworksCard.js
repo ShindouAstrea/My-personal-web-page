@@ -12,7 +12,7 @@ export default function SocialNetWorks(){
                <Card border="dark">
                         <Card.Body>
                             <Card.Title>{item.name}</Card.Title>
-                            <Button variant="outline-success" href={item.url}>Ir</Button>
+                            <Button variant="outline-success" href={item.url}>Visitar </Button>
                         </Card.Body>
                 </Card>
               </Col>
