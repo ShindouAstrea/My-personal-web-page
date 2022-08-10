@@ -1,5 +1,5 @@
 import React from 'react';
-import {Outlet,Link} from 'react-router-dom';
+import {Outlet} from 'react-router-dom';
 import {Nav,Navbar,Container} from 'react-bootstrap';
 import '../styles/NavBar.css' ;
 function NavBarComponent(){
@@ -15,27 +15,26 @@ function NavBarComponent(){
           </Nav>
           <Nav>
             <Nav.Item className='mr-5'>
-                <Link to ="/Jobs">
+                <Nav.Link href ="Jobs">
                 Mis trabajos
-                </Link>
-                
+                </Nav.Link>
             </Nav.Item>
           <Nav.Item className='mr-5'>
-                <Link to ="/Apps">
+                <Nav.Link href ="Apps">
                 Apps
-                </Link>
+                </Nav.Link>
                 
             </Nav.Item>
             <Nav.Item className='mr-5'>
-                <Link to ="/DevTools">
+                <Nav.Link href ="DevTools">
                 Tools
-                </Link>
+                </Nav.Link>
                 
             </Nav.Item>
             <Nav.Item className='mr-5'>
-                <Link to ="/SocialNetworks">
+                <Nav.Link href ="SocialNetworks">
                 Redes
-                </Link>
+                </Nav.Link>
                 
             </Nav.Item>
           </Nav>
