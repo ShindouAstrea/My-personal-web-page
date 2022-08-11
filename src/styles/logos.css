@@ -1,0 +1,17 @@
+.logo {
+    height: 10vmin;
+
+  }
+   
+  @media (prefers-reduced-motion: no-preference) {
+    .logo:hover{
+      animation:logo-animation  1s infinite linear alternate;
+    }
+  }
+  @keyframes logo-animation{
+    100%{
+        transform: scale(1.5);
+    }
+      
+  }
+  
