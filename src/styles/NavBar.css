@@ -1,10 +1,11 @@
-.navBarButtons {
-    align-items: center;
-    margin:auto;
-
- 
+.links{
+    display: block;
+    padding:  0.5rem;
+    color: #ffffff8c;
+    text-decoration:none ;
+    
 }
-.navBar{
-     color :brown;
-     height: 300;
+.links:focus,.links:hover{
+    color:white;
+    transition: .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
