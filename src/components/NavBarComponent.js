@@ -1,13 +1,13 @@
 import React from 'react';
-import {Outlet} from 'react-router-dom';
+import {Outlet,Link} from 'react-router-dom';
 import {Nav,Navbar,Container} from 'react-bootstrap';
 import '../styles/NavBar.css' ;
 function NavBarComponent(){
     return (
         <>
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href="/">Inicio</Navbar.Brand>
+        <Navbar.Brand href="/">José Silva</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
@@ -15,26 +15,26 @@ function NavBarComponent(){
           </Nav>
           <Nav>
             <Nav.Item className='mr-5'>
-                <Nav.Link href ="Jobs">
+                <Link className="links"to="/Jobs">
                 Mis trabajos
-                </Nav.Link>
+                </Link>
             </Nav.Item>
           <Nav.Item className='mr-5'>
-                <Nav.Link href ="Apps">
+              <Link className="links" to ="/Apps">
                 Apps
-                </Nav.Link>
-                
+                </Link>
             </Nav.Item>
             <Nav.Item className='mr-5'>
-                <Nav.Link href ="DevTools">
+
+                <Link className="links"to ="/DevTools">
                 Tools
-                </Nav.Link>
+                </Link>
                 
             </Nav.Item>
             <Nav.Item className='mr-5'>
-                <Nav.Link href ="SocialNetworks">
+                <Link className="links"to ="/SocialNetworks">
                 Redes
-                </Nav.Link>
+                </Link>
                 
             </Nav.Item>
           </Nav>
