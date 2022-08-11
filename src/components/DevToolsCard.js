@@ -5,7 +5,6 @@ export default function DevToolsCard(){
     return(
         <Container>
             <Row>
-            <h1>Frameworks</h1>
             {
             devTools.map((item,index)=>(
               <Col xs="auto" md ={6} lg={6}key= {index} className="mb-4">

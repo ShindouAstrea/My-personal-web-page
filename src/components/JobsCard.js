@@ -3,9 +3,8 @@ import {Col,Row,Container,Card} from 'react-bootstrap';
 const jobs = require('../data/jobsHistorial.json');
 export default function JobsCard(){
     return(
-        <Container>
-            <Row>
-            <h1>Historial de trabajos</h1>
+        <Container >
+            <Row className="justify-content-mt-4">
             {
             jobs.map((item,index)=>(
               <Col xs="auto" md ={6} lg={6}key= {index} className="mb-4">

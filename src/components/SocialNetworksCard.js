@@ -1,20 +1,20 @@
 import React from 'react';
 import {Col,Row,Container,Button,Card} from 'react-bootstrap';
+import '../styles/logos.css' ;
 const Social = require('../data/social.json');
+
 export default function SocialNetWorks(){
     return(
         <Container>
             <Row>
-            <h1>Redes Sociales</h1>
             {
             Social.map((item,index)=>(
-              <Col xs="auto" md ={6} lg={6}key= {index} className="mb-4">
-               <Card border="dark">
-                        <Card.Body>
-                            <Card.Title>{item.name}</Card.Title>
-                            <Button variant="outline-success" href={item.url}>Visitar </Button>
-                        </Card.Body>
-                </Card>
+              <Col xs="3" md ="3" lg="3" key={index} className="mb-4 ">
+                <img src={require(`../assets/${item.pic}`)} className="logo" alt=""></img>
+                <br></br>
+                <br></br>
+                <Button variant="outline-success" href={item.url}>Visitar </Button>
+               
               </Col>
             ))
           }
