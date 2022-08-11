@@ -1,5 +1,5 @@
 import React from 'react';
-import {Col,Row,Container,Button,Card} from 'react-bootstrap';
+import {Col,Row,Container,Button} from 'react-bootstrap';
 import '../styles/logos.css' ;
 const Social = require('../data/social.json');
 
