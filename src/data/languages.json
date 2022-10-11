@@ -1,0 +1,38 @@
+[
+    {
+       "id":"1",
+       "name":"JavaScript",
+       "level":"Intermedio",
+       "description":"Lenguaje logico de multiproposito, usado principalmente en desarrollo web"
+    },
+    {
+        "id":"2",
+        "name":"TypeScript",
+        "level":"basico",
+        "description":"Lenguaje de tipado basado en javascript, usado principalmente en desarrollo web"
+     },
+     {
+        "id":"3",
+        "name":"Php",
+        "level":"basico",
+        "description":"Lenguaje logico , usado principalmente desde el lado del servidor"
+     },
+     {
+        "id":"4",
+        "name":"Java",
+        "level":"Intermedio",
+        "description":"Lenguaje de programacion orientado a objetos"
+     },
+     {
+        "id":"5",
+        "name":"C",
+        "level":"Intermedio",
+        "description":"Lenguaje de programacion"
+     },
+     {
+        "id":"6",
+        "name":"Python",
+        "level":"basico",
+        "description":"Lenguaje de programacion orientado a objetos, usado tambien en desarrollo de apis"
+     }
+]
