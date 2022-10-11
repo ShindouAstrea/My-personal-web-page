@@ -5,6 +5,7 @@ import DevApps from './components/views/DevApps';
 import DevTools from './components/views/DevTools';
 import SocialNetWorks from './components/views/SocialNetWorks';
 import Jobs from './components/views/Jobs';
+import LanguagesPage from './components/views/LanguagesPage';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import NavBarComponent from './components/NavBarComponent';
 
@@ -19,6 +20,7 @@ function App() {
                   <Route path="SocialNetworks" element={<SocialNetWorks/>}/>
                   <Route path="Apps" element={<DevApps/>}/>
                   <Route path="DevTools" element={<DevTools/>}/>
+                  <Route path="Languages" element={<LanguagesPage/>}/>
                 </Route>
               </Routes>
               </BrowserRouter>

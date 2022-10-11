@@ -1,5 +1,10 @@
 .App {
-  text-align: center;
+  text-align: center
+}
+.App::before{
+  content:"";
+  background:transparent;
+  background-color: aqua;
 }
 
 .App-logo {
