@@ -32,11 +32,18 @@ function NavBarComponent(){
                 
             </Nav.Item>
             <Nav.Item className='mr-5'>
+                <Link className="links"to ="/Languages">
+                Lenguajes
+                </Link>
+                
+            </Nav.Item>
+            <Nav.Item className='mr-5'>
                 <Link className="links"to ="/SocialNetworks">
                 Redes
                 </Link>
                 
             </Nav.Item>
+            
           </Nav>
         </Navbar.Collapse>
       </Container>
