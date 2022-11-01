@@ -1,12 +1,8 @@
 .App {
-  text-align: center
+ font-family: sans-serif;
+ margin: auto;
+ backdrop-filter: blur(2px);
 }
-.App::before{
-  content:"";
-  background:transparent;
-  background-color: aqua;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,12 +28,17 @@
 .App-link {
   color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body{
+  background-color: #282c34;
+  
+}
+.box{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 5px;
+}
+.background{
+  display: flex;
+  position: absolute;
+  z-index: -1;
+  filter: blur(5px);
 }
