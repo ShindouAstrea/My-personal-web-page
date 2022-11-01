@@ -3,6 +3,7 @@ import {Col,Row,Container,Card} from 'react-bootstrap';
 
 const lang = require('../data/languages.json');
 
+
 export default function LanguagesCard(){
 
     return(
