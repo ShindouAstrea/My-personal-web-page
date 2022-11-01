@@ -1,3 +1,7 @@
-.estilos{
-    background-color:indigo;
-}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .Cards {
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+    }
+  }

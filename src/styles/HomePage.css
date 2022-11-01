@@ -1,0 +1,13 @@
+.profile-photo{
+    width: auto;
+    max-width: 700px;
+    margin-bottom: 10px;
+   
+}
+p.text{
+    justify-content: center;
+    font-size: 100%;
+}
+.Content {
+    backdrop-filter: blur(5px);
+}
