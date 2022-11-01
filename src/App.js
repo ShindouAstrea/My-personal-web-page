@@ -1,5 +1,5 @@
-
 import './App.css';
+import Background from './components/views/Background';
 import HomePage from './components/views/HomePage';
 import DevApps from './components/views/DevApps';
 import DevTools from './components/views/DevTools';
@@ -12,7 +12,9 @@ import NavBarComponent from './components/NavBarComponent';
 function App() {
   return (
     <div className="App">
+    
       <BrowserRouter>
+      <Background/>
               <Routes>
                 <Route path="/" element ={<NavBarComponent/>}>
                   <Route index element={<HomePage />}/>

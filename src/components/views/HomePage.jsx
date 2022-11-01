@@ -1,37 +1,28 @@
 import React from 'react';
 import {Container,Row,Col} from 'react-bootstrap' ;
-import '../../styles/Engranaje.css' ;
-import '../../styles/gorda.css'
-import tuerca from '../../assets/tuerca.svg';
-import gorda from '../../assets/gorda.jpg';
-
+import dev from '../../assets/dev.png';
+import '../../styles/HomePage.css';
+const myData = require('../../data/aboutMe.json') ;
 function HomePage(){
     
     return(
-        <Container>
-            <Row>
-                <div style={{paddingTop:'100px'}}>
-
-                <Col lg="0">
-                    <h1> Este Sitio web sigue en construccion </h1>
-                    <br></br>
-                    <img
-                    className='formato'
-                    src={gorda}
-                        alt=""> 
-                    </img>
-                    
-                    
-                </Col >
-                <Col >
-                    <div >
-                            <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi est voluptates dolor numquam laudantium quaerat veniam ea doloremque odio iste esse minus inventore dolores accusamus eum, sint aliquam, ut sed?</h2>
-                        </div>
-                </Col>
-                </div>
-
-                
-            </Row>
+        <Container fluid >
+            <div  style={{paddingTop:'100px'}}>
+            <h1 style={{marginBottom:'50px'}}> Acerca de mi  </h1>
+                <Row lg={2} className="justify-content-md-center box Content">
+                    <Col xs="auto"  >
+                        <br></br>
+                        <img
+                        className='profile-photo'
+                        src={dev}
+                            alt=""> 
+                        </img>
+                    </Col >
+                    <Col xs="auto">
+                        <p className='text'>{myData.text}</p>
+                    </Col>
+                </Row>
+            </div>
 
         </Container>
         
