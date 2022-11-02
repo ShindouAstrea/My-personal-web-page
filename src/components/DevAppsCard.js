@@ -16,10 +16,10 @@ export default function DevAppsCard(){
                             <Card.Text>{item.description}</Card.Text>
                             <Row>
                             <Col>
-                                <Button disabled variant="outline-success play-store">Ir a  Google play</Button>
+                                <Button  disabled={item.disabled} href={item.link}variant="outline-success play-store">Ir a  Google play</Button>
                             </Col>
                             <Col>
-                                <Button  disabled variant="outline-primary">Ir a la App Store</Button>
+                                <Button  disabled={item.disabled} variant="outline-primary">Ir a la App Store</Button>
                             </Col>
                             </Row>
                         </Card.Body>
