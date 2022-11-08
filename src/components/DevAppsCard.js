@@ -19,7 +19,7 @@ export default function DevAppsCard(){
                                 <Button  disabled={item.disabled} href={item.link}variant="outline-success play-store">Ir a  Google play</Button>
                             </Col>
                             <Col>
-                                <Button  disabled={item.disabled} variant="outline-primary">Ir a la App Store</Button>
+                                <Button  disabled="true" variant="outline-primary">Ir a la App Store</Button>
                             </Col>
                             </Row>
                         </Card.Body>

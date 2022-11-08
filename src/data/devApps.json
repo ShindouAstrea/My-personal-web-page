@@ -4,20 +4,20 @@
         "name":"AnimeNotes (Proximamente)",
         "description":"Aplicacion movil que permite crear notas , agregando gifs e imagenes de anime",
         "link":"",
-        "disabled":true
+        "disabled":"false"
     },
     {
         "id":"2",
         "name":"AnimeGIfs (Proximamente)",
         "description":"Aplicacion movil que recopila y entrega gifs en base a una busqueda",
         "link":"",
-        "disabled":true
+        "disabled":"false"
     },
     {
         "id":"3",
         "name":"ItsukiEngine",
         "description":"Aplicación que busca de manera inversa ,fuente de donde proviene un gif o imagen",
         "link":"https://play.google.com/store/apps/details?id=com.shindou_astrea.itsukiengine",
-        "disabled":false
+        "disabled":"true"
     }
 ]
