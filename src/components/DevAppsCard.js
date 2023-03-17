@@ -15,9 +15,15 @@ export default function DevAppsCard(){
                             <Card.Title>{item.name}</Card.Title>
                             <Card.Text>{item.description}</Card.Text>
                             <Row>
-                            <Col>
-                                <Button  disabled={item.disabled} href={item.link}variant="outline-success play-store">Ir a  Google play</Button>
-                            </Col>
+                                { item.id !=4 ?
+                                <Col>
+                                   <Button  disabled={item.disabled} href={item.link}variant="outline-success play-store">Ir a  Google play</Button>
+                                </Col>
+                                : 
+                                <Col>
+                                    <Button disabled={item.disabled} href={item.link}variant="outline-success play-store">Ir al sitio Web</Button>
+                                </Col>
+                                }
                             <Col>
                                 <Button  disabled="true" variant="outline-primary">Ir a la App Store</Button>
                             </Col>
